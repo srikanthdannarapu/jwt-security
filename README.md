@@ -20,7 +20,7 @@ import java.security.Key;
 import io.jsonwebtoken.*;
 import java.util.Date;    
  
-//Sample method to construct a JWT
+#Sample method to construct a JWT
 private String createJWT(String id, String issuer, String subject, long ttlMillis) {
  
     //The JWT signature algorithm we will be using to sign the token
@@ -60,7 +60,7 @@ import javax.xml.bind.DatatypeConverter;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.Claims;
 
-//Sample method to validate and read the JWT
+#Sample method to validate and read the JWT
 private void parseJWT(String jwt) {
 
     //This line will throw an exception if it is not a signed JWS (as expected)
@@ -77,7 +77,7 @@ import javax.xml.bind.DatatypeConverter;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.Claims;
  
-//Sample method to validate and read the JWT
+#Sample method to validate and read the JWT
 private void parseJWT(String jwt) {
  
     //This line will throw an exception if it is not a signed JWS (as expected)
